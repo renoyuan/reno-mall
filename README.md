@@ -68,3 +68,7 @@ Vuex	全局状态管理框架	https://vuex.vuejs.org
 uni-app	移动端前端框架	https://uniapp.dcloud.io
 mix-mall	电商项目模板	https://ext.dcloud.net.cn/plugin?id=200
 luch-request	HTTP请求框架	https://github.com/lei-mu/luch-request
+
+
+day 1 使用  MyBatisGenerator 生成数据库操作代码
+day 2 开发接口
