@@ -4,6 +4,7 @@ package com.reno.mall.common.domain;
 /**
  * SwaggerProperties
  * Swagger自定义配置
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan

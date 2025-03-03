@@ -35,11 +35,11 @@
             <property name="nullCatalogMeansCurrent" value="true" />
         </jdbcConnection>
         <!-- 用于控制实体类的生成 -->
-        <javaModelGenerator targetPackage="com.reno.renomall.model" targetProject="mall-mbg\src\main\java"/>
+        <javaModelGenerator targetPackage="com.reno.mall.model" targetProject="mall-mbg\src\main\java"/>
         <!-- 用于控制Mapper.xml文件的生成 -->
-        <sqlMapGenerator targetPackage="com.reno.renomall.mapper" targetProject="mall-mbg\src\main\resources"/>
+        <sqlMapGenerator targetPackage="com.reno.mall.mapper" targetProject="mall-mbg\src\main\resources"/>
         <!-- 用于控制Mapper接口的生成 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="com.reno.renomall.mapper"
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.reno.mall.mapper"
                              targetProject="mall-mbg\src\main\java"/>
         <!-- 配置需要生成的表，生成全部表tableName设为% -->
         <table tableName="%">

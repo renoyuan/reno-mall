@@ -10,9 +10,13 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>mall-common</module>
+        <module>mall-security</module>
         <module>mall-mbg</module>
         <module>mall-portal</module>
-        <module>mall-common</module>
+        <module>mall-admin</module>
+<!--        <module>mall-search</module>-->
+
     </modules>
 
     <parent>
@@ -89,12 +93,6 @@
     <dependencyManagement>
         <dependencies>
 
-            <!--mall中MBG生成模块-->
-            <dependency>
-                <groupId>com.reno.reno-mall</groupId>
-                <artifactId>mall-mbg</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
 
             <!--MyBatis分页插件starter-->
             <dependency>

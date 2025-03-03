@@ -33,6 +33,7 @@ import java.util.Map;
 /**
  * WebLogAspect
  * 统一日志处理切面
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan
@@ -85,12 +86,12 @@ public class WebLogAspect {
         webLog.setStartTime(startTime);
         webLog.setUri(request.getRequestURI());
         webLog.setUrl(request.getRequestURL().toString());
-        Map<String,Object> logMap = new HashMap<>();
-        logMap.put("url",webLog.getUrl());
-        logMap.put("method",webLog.getMethod());
-        logMap.put("parameter",webLog.getParameter());
-        logMap.put("spendTime",webLog.getSpendTime());
-        logMap.put("description",webLog.getDescription());
+        Map<String, Object> logMap = new HashMap<>();
+        logMap.put("url", webLog.getUrl());
+        logMap.put("method", webLog.getMethod());
+        logMap.put("parameter", webLog.getParameter());
+        logMap.put("spendTime", webLog.getSpendTime());
+        logMap.put("description", webLog.getDescription());
 //        LOGGER.info("{}", JSONUtil.parse(webLog));
         LOGGER.info(Markers.appendEntries(logMap), JSONUtil.parse(webLog).toString());
         return result;
@@ -116,7 +117,7 @@ public class WebLogAspect {
                 if (!StrUtil.isEmpty(requestParam.value())) {
                     key = requestParam.value();
                 }
-                if(args[i]!=null){
+                if (args[i] != null) {
                     map.put(key, args[i]);
                     argList.add(map);
                 }

@@ -10,14 +10,14 @@ import java.util.Set;
 
 
 /**
- *   RedisService
-
- *   @author renoYuan
- *   @email renoyuan@fox.mall
- *   @github https://github.com/renoyuan
- *   @date 2025/2/25
+ * RedisService
+ *
+ * @author renoYuan
+ * @email renoyuan@fox.mall
+ * @github https://github.com/renoyuan
+ * @date 2025/2/25
  * Redis 操作服务接口（重构版）
-
+ * <p>
  * 优化点：
  * 1. 命名规范化（遵循 Redis 命令语义）
  * 2. 增强泛型支持
@@ -25,8 +25,6 @@ import java.util.Set;
  * 4. 引入空安全注解
  * 5. 支持 Duration 时间参数
  * 6. 异常处理约定
- *
-
  */
 public interface RedisService {
 

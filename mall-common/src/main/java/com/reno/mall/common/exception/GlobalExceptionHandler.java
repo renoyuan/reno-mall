@@ -15,6 +15,7 @@ import java.sql.SQLSyntaxErrorException;
 
 /**
  * 全局异常处理类
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan
@@ -41,7 +42,7 @@ public class GlobalExceptionHandler {
         if (bindingResult.hasErrors()) {
             FieldError fieldError = bindingResult.getFieldError();
             if (fieldError != null) {
-                message = fieldError.getField()+fieldError.getDefaultMessage();
+                message = fieldError.getField() + fieldError.getDefaultMessage();
             }
         }
         return CommonResult.validateFailed(message);
@@ -55,7 +56,7 @@ public class GlobalExceptionHandler {
         if (bindingResult.hasErrors()) {
             FieldError fieldError = bindingResult.getFieldError();
             if (fieldError != null) {
-                message = fieldError.getField()+fieldError.getDefaultMessage();
+                message = fieldError.getField() + fieldError.getDefaultMessage();
             }
         }
         return CommonResult.validateFailed(message);

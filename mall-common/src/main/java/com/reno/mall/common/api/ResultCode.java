@@ -4,6 +4,7 @@ package com.reno.mall.common.api;
 /**
  * ResultCode
  * API返回码封装类
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan

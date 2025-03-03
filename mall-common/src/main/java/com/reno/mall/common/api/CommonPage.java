@@ -6,11 +6,10 @@ import org.springframework.data.domain.Page;
 import java.util.List;
 
 
-
-
 /**
  * CommonPage
  * 通用分页数据封装类
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan

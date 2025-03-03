@@ -1,4 +1,5 @@
 package com.reno.mall.common.exception;
+
 import com.reno.mall.common.api.IErrorCode;
 
 public class ApiException extends RuntimeException {

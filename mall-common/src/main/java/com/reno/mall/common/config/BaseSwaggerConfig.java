@@ -2,11 +2,13 @@ package com.reno.mall.common.config;
 /**
  * BaseSwaggerConfig
  * Swagger基础配置
+ *
  * @author renoYuan
  * @email renoyuan@fox.mall
  * @github https://github.com/renoyuan
  * @date 2025/2/24
  */
+
 import com.reno.mall.common.domain.SwaggerProperties;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;
@@ -86,7 +88,7 @@ public abstract class BaseSwaggerConfig {
         return result;
     }
 
-    public BeanPostProcessor generateBeanPostProcessor(){
+    public BeanPostProcessor generateBeanPostProcessor() {
         return new BeanPostProcessor() {
 
             @Override
